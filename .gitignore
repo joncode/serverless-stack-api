@@ -1,3 +1,6 @@
+# local CLI commands
+.commands
+
 # Logs
 logs
 *.log
