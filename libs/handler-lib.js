@@ -10,7 +10,8 @@ export default function handler(lambda) {
 			// On failure
 			.catch((e) => {
 				logit(e, '12 handler-lib');
-				return [500, { error: e.message }];
+				const errorcode = e.statusCode || 500;
+				return [errorcode, { error: e.message }];
 			})
 			// Return HTTP response
 			.then(([statusCode, body]) => ({

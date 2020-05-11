@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "chokidar": "^3.4.0",
-    "serverless": "^1.70.0",
+    "serverless": "^1.70.1",
     "stripe": "^8.50.0",
     "typescript": "^3.8.3",
     "uuid": "^7.0.3"
